@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { DemoLibraryModule } from '@demo/library';
+import { SampleComponentModule } from '@demo/library';
 
 import { AppComponent } from './app.component';
 
@@ -10,7 +10,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    DemoLibraryModule
+    SampleComponentModule
   ],
   providers: [],
   bootstrap: [AppComponent]
